@@ -1,6 +1,6 @@
 ## Quick Intel's Smart Contracts ##
 
-**The Ethereum CA is created from leading practice of OpenZeppelins ERC20Burnable Standard token. Details of ERC20 standard can be found [here] (https://docs.openzeppelin.com/contracts/4.x/api/token/erc20)**
+**The Ethereum CA is created from leading practice of OpenZeppelins ERC20Burnable Standard token. Details of ERC20 standard can be found [here](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20)**
 
 The Ethereum Proxy CA and Arbitrum CA are based on LayerZero's OFT standard for cross-chain assets.
 

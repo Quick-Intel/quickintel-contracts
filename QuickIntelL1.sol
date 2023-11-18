@@ -4,10 +4,10 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract QuickIntelL1 is ERC20 {
+contract QuickIntel is ERC20 {
 
     //100M Supply
-    constructor(uint256 _initialSupply) ERC20("Quick Intel", "QUICKI") {
+    constructor(uint256 _initialSupply) ERC20("Quick Intel", "QKNTL") {
         _mint(msg.sender, _initialSupply * 10 ** decimals());
     }
 

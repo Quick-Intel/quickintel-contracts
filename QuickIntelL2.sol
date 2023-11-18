@@ -8,7 +8,7 @@ import "./interfaces/IOFT.sol";
 import "./OFTCore.sol";
 
 // override decimal() function is needed
-contract QuickIntelL2 is OFTCore, ERC20, IOFT {
+contract QuickIntelOFTL2 is OFTCore, ERC20, IOFT {
     constructor(
         string memory _name,
         string memory _symbol,

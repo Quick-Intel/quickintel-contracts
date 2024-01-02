@@ -1,0 +1,65 @@
+[
+    {
+        "id": "testing",
+        "pricingModelType": "TierWithOverage",
+        "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+        },
+        "prices": {
+            "unit": {
+                "currency": "usd",
+                "unitAmount": 0,
+                "quota": 2
+            },
+            "metered": {
+                "currency": "usd",
+                "unitAmount": 10
+            }
+        }
+    },
+    {
+        "id": "starter",
+        "pricingModelType": "Tier",
+        "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+        },
+        "prices": {
+            "unit": {
+                "currency": "usd",
+                "unitAmount": 7999,
+                "quota": 150
+            }
+        }
+    },
+    {
+        "id": "business",
+        "pricingModelType": "Tier",
+        "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+        },
+        "prices": {
+            "unit": {
+                "currency": "usd",
+                "unitAmount": 19999,
+                "quota": 500
+            }
+        }
+    },
+    {
+        "id": "enterprise",
+        "pricingModelType": "Tier",
+        "recurring": {
+            "interval": "month",
+            "intervalCount": 1
+        },
+        "prices": {
+            "unit": {
+                "currency": "usd",
+                "unitAmount": 39999
+            }
+        }
+    }
+]
